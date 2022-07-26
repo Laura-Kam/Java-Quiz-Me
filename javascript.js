@@ -1,4 +1,11 @@
-//finding the question in each page
+var StartQuiz = document.querySelector("start-quiz-btn");
+
+StartQuiz.addEventListener("click", showQuestion);
+
+function showQuestion() {
+  var homeDiv = document.getElementById("home");
+  homeDiv.style.display = "none";
+}
 
 //targets question
 var question = document.querySelector("question");
@@ -52,23 +59,3 @@ let questions = [
     answer: 4,
   },
 ];
-
-function makeQuestionsAppear() {}
-
-function showResults() {}
-
-makeQuestionsAppear();
-
-nextButton.addEventListener("click", showResults);
-
-/* GIVEN I am taking a code quiz
-WHEN I click the next button- a new set of questions appears/*/
-
-/* WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and score */
