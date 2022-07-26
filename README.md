@@ -1,5 +1,5 @@
 # Java-Quiz-Me
-## Password Generator
+## Javascript Multiple Choice Quiz
 
 # Description
 
@@ -16,7 +16,7 @@
 
 # Screenshot of website:
 
-![Screenshot of website](https://github.com/Laura-Kam/GenerateMyPassword/issues/1#issue-1307078859)
+![Screenshot of website](https://github.com/Laura-Kam/Java-Quiz-Me/issues/1#issue-1318418629)
 
 # Version history
 
