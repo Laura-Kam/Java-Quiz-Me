@@ -10,7 +10,7 @@ startQuiz.addEventListener("click, hideHomeContainer") =
 function hideHomeContainer() {
   console.log("clicked show question");
   var homeContainer = document.getElementById("home");
-  if (homeContainer.style.display === "block") {
+  if (homeContainer.style.display !== "none") {
     homeContainer.style.display = "none";
 }
 
