@@ -5,7 +5,27 @@ var score;
 var time;
 var timer;
 
-startQuiz.addEventListener("click", showQuestion);
+startQuiz.addEventListener("click, hideHomeContainer") = 
+
+function hideHomeContainer() {
+  console.log("clicked show question");
+  var homeContainer = document.getElementById("home");
+  if (homeContainer.style.display === "block") {
+    homeContainer.style.display = "none";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* startQuiz.addEventListener("click", showQuestion);
 
 function showQuestion() {
   console.log("clicked show question");
@@ -65,3 +85,5 @@ let questions = [
     answer: 4,
   },
 ];
+
+*/
