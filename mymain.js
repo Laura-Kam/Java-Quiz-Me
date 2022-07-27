@@ -1,8 +1,14 @@
-var StartQuiz = document.querySelector("start-quiz-btn");
+console.log("hi here");
+var startQuiz = document.getElementById("startQuiz");
+var index;
+var score;
+var time;
+var timer;
 
-StartQuiz.addEventListener("click", showQuestion);
+startQuiz.addEventListener("click", showQuestion);
 
 function showQuestion() {
+  console.log("clicked show question");
   var homeDiv = document.getElementById("home");
   homeDiv.style.display = "none";
 }

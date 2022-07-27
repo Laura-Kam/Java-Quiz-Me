@@ -1,24 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Java-Quiz-Me</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<script scr="javascript.js"></script>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!--Home page-->
-    <div class="home-container">
-        <div id="home" class="flex column flex center">
-            <h1>Coding Quiz Challenge-Let's Play</h1>
-            <h3>Try to answer the following code-related questions within the time limit.<br>
-            Keep in mind that incorrect answers will penalise your score/time by ten seconds.</h3>
-            <a href="game.html" class="start-quiz-btn">Start Quiz</a>
-            <a id="top-scores-btn" href="top-scores.html">View high scores</a>
-        </div>
+    <div id="home" class="home-container">
+      <div class="flex column flex center">
+        <h1>Coding Quiz Challenge-Let's Play</h1>
+        <h3>
+          Try to answer the following code-related questions within the time
+          limit.<br />
+          Keep in mind that incorrect answers will penalise your score/time by
+          ten seconds.
+        </h3>
+        <!--<a href="game.html" class="start-quiz-btn">Start Quiz</a> -->
+        <a id="top-scores-btn" href="top-scores.html">View high scores</a>
+      </div>
     </div>
+    <button id="startQuiz">Start Quiz</button>
     <!--Home body end-->
-</body>
+    <div id="quiz-container" class="hide">
+      <div class="timer">
+        <div class="Text-timer">Time remaining</div>
+        <div class="timer-seconds-to-go">10</div>
+      </div>
+      <div id="question-box">
+        <div id="question">Question</div>
+        <div
+          id="answer-buttons-container"
+          class="answer-buttons-container"
+        ></div>
+        <button class="btn-option" data-number="1">AnswerOne</button>
+        <button class="btn-option" data-number="2">AnswerTwo</button>
+        <button class="btn-option" data-number="3">AnswerThree</button>
+        <button class="btn-option" data-number="4">AnswerFour</button>
+        <hr id="grey-line" />
+        <p id="score">Score</p>
+      </div>
+    </div>
+    <script src="mymain.js"></script>
+  </body>
 </html>
