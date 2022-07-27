@@ -18,12 +18,12 @@
 
 ![Screenshot of website](https://github.com/Laura-Kam/Java-Quiz-Me/issues/2#issue-1319421175)
 
-#bugs
+# bugs
 
 * Link button to start quiz failed to work.
 *Could not manage to print quiz questions to page
 
-#Resources used:
+# Resources used:
 
 * https://sebhastian.com/addeventlistener-javascript/
 
