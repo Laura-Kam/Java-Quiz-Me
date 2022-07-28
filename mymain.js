@@ -1,4 +1,4 @@
-
+//variables created to store data.
 var startQuiz = document.getElementById("startQuiz");
 var index;
 var score;
@@ -10,6 +10,8 @@ var quizContainer = document.getElementById('quiz-container');
 
 generateQuiz(questions, quizContainer, submit);
 
+//event listener created in order to hide home container and show question container.
+
 startQuiz.addEventListener("click", hideHomeContainer);
 
 function hideHomeContainer() {
@@ -20,6 +22,7 @@ function hideHomeContainer() {
   }
 }
 
+//variable created for looping through questions later.
 var questions = [
 	{
 		question: "The condition in an if/else statement is enclosed with",
